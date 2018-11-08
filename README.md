@@ -13,7 +13,8 @@ Ao termino, deverá fazer um push de volta para o repositório com o código par
 # Premissas: 
 1.	A solução deve conter separação entre o **backend (Node.js)** e o **frontend (React)**.
 2.	O domínio é composto por uma entidade **PRODUTO** como os atributos: *id, nome e valor*.
-3.  A aplicação deve persistir em base de dados **(preferencialmente noSQL)** e o nome da tabela ou collection deve ser **loja**.
+3.  A aplicação deve persistir em base de dados **(preferencialmente noSQL)** 
+4.  O nome da base de dados deve ser **loja** e da tabela ou collection deve ser **produto**.
 
 # Especificações do Frontend:
 1.	Deve ser usado formulário para input de dados.
