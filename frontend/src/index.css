@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+table {
+  width: 100%
+}
+
+.col-header {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.col-valor-header {
+  width: 130px;
+}
+
+.col-id-header {
+  width: 40px;
+}
+
+.col-acao-header {
+  width: 120px;
+}
+
+.col-id-cell {
+  text-align: left;
+}
+
+.col-nome-cell {
+  text-align: left;
+}
+
+.col-valor-cell {
+  text-align: right;
+}
+
+.col-acao-cell {
+  text-align: center;
+}
+
+.grid-header {
+  text-align: right;
+  padding: 2px;
+}
+
+.grid-footer {
+  text-align: center;
+  padding: 2px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 6px;
+  margin: 2px;
+  border: 1px solid #aaa;
+}
+
+.col-order {
+  background: #ffe;
+}
+
+tr:nth-child(even) {background: #eee}
+tr:nth-child(odd) {background: #FFF}
+
+.form {
+  background-color: #eee;
+  padding: 20px;
+}
+.form, .form label, .form label input {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
